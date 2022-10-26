@@ -52,7 +52,7 @@ function App() {
   return (
     <>
       <form onSubmit={SavePost}>
-        <input type="text" placeholder='Search News' onChange={(e)=>{setPostText(e.target.value)}}></input>
+        <textarea type="text" placeholder='Post' onChange={(e)=>{setPostText(e.target.value)}}></textarea><br/>
         <button type='submit'>Post</button>
       </form>
       
